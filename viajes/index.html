@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        iframe {
+            width: 100%;
+            border: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .inferior {
+            display: flex;
+            flex: 1;
+            height: 80vh;
+        }
+        .contacto {
+            display: flex;
+            flex: 1;
+            height: 70vh;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <iframe id="header" src="header.html" class="inicio"></iframe>
+        <div class="inferior">
+            <iframe id="sobre-nosotros" src="sobre_nosotros.html" ></iframe>
+            <iframe id="destinos" src="destinos.html" ></iframe>
+        </div>
+        <iframe id="contacto" src="contacto.html" class="contacto"></iframe>
+    </div>
+</body>
+</html>

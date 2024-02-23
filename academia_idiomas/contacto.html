@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/agencia-icon.png" />
+  <title>Contacto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #d1eefa;
+      color: #333;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto; /* Centrar el contenido */
+      padding: 0 20px;
+      text-align: center; /* Centrar el texto dentro de main */
+    }
+
+    h3,
+    h4,
+    h5 {
+      color: #2393f6;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .formulario {
+      width: 100%; /* Ajustar el ancho del formulario */
+      max-width: 400px; /* Limitar el ancho máximo */
+      margin: 0 auto; /* Centrar el formulario */
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: left; /* Alinear el texto a la izquierda */
+    }
+
+    .formulario label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+
+    .formulario input[type="text"],
+    .formulario input[type="tel"],
+    .formulario input[type="email"] {
+      width: 95%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .formulario button[type="submit"] {
+      background-color: #2393f6;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .formulario button[type="submit"]:hover {
+      background-color: #095c9d;
+    }
+
+    .info-contacto {
+      margin-top: 20px;
+    }
+
+    .info-contacto a {
+      color: #2393f6;
+      text-decoration: none;
+    }
+
+    .info-contacto a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section>
+      <h3>¿Necesitas más información o quieres estudiar conosotros?</h3>
+      <h4>Llena tu información y nos pondremos en contacto contigo</h4>
+      <div class="formulario">
+        <label for="nombre">Nombre y Apellido:</label>
+        <input type="text" id="nombre" required />
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" required />
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" required />
+        <label for="destino">Destino:</label>
+        <input type="text" id="destino" required />
+        <button type="submit">ENVIAR</button>
+      </div>
+    </section>
+    <section>
+      <h3>O contáctanos:</h3>
+      <div class="info-contacto">
+        <h5>Teléfono:</h5>
+        <a href="tel:+593983158128">0997511389</a>
+        <h5>Correo:</h5>
+        <a href="mailto:">fernandomallitaxi100@gmail.com</a>
+      </div>
+    </section>
+    <section>
+      <h3>Visítanos:</h3>
+      <div class="info-contacto">
+        <h5>Única agencia:</h5>
+        <p>Av. 21 de Agosto y Cacica Luisa Tota s28-9.</p>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

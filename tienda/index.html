@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Alimentos Saludables</title>
+    <style>
+        body, html {
+            height: 100%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #content {
+            flex: 1;
+            display: flex;
+            justify-content: space-around;
+            height: 100%;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Alimentos Saludables</h1>
+    </header>
+    <nav>
+        <a href="inicio.html" target="iframe">Inicio</a>
+        <a href="productos.html" target="iframe">Productos</a>
+        <a href="recetas.html" target="iframe">Recetas</a>
+        <a href="sobre_nosotros.html" target="iframe">Sobre Nosotros</a>
+        <a href="contacto.html" target="iframe">Contáctanos</a>
+    </nav>
+    <div id="content">
+        <iframe src="inicio.html" name="iframe"></iframe>
+    </div>
+</body>
+</html
